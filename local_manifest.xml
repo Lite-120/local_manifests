@@ -4,8 +4,8 @@
 	<remote name="Lite"
 		fetch="https://github.com/Lite-120" />
 	
-	<remote name="BlackSuan"
-		fetch="https://github.com/Blacksuan19" />
+	<remote name="Unitrix"
+		fetch="https://github.com/GhostMaster69-dev" />
 	
 	<remote name="clang"
 		fetch="https://github.com/kdrag0n" />
@@ -14,7 +14,7 @@
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Lite" revision="awaken" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="awaken" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Unitrix" revision="stable" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
 	
