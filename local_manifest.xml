@@ -16,10 +16,6 @@
         <remote  name="Addy"
                 fetch="https://github.com/adnan-44" />
 
-
-        <!--sepolicy-legacy-um-->
-	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="Unitrix" revision="lineage-12-caf-4.9-S" />
-  
         
         <!-- Remove Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
