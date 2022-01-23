@@ -4,8 +4,8 @@
 	<remote name="Lite"
 		fetch="https://github.com/Lite-120" />
 	
-	<remote name="Seba"
-		fetch="https://github.com/xiaomi-msm8953-devs/" />
+	<remote name="TK"
+		fetch="https://github.com/gamehackerever/" />
 	
 	<remote name="clang"
 		fetch="https://github.com/kdrag0n" />	
@@ -16,18 +16,11 @@
         <remote  name="Addy"
                 fetch="https://github.com/adnan-44" />
 
-        
-        <!-- remove hals-->
-  	<remove-project name="LineageOS/android_hardware_qcom_audio" />
-	
-	<!--clonehals-->
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" revision="eleven" remote="pe" />
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" revision="eleven" remote="pe" />
-	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="eleven" remote="pe" />
 
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="TK" revision="arrow-11.0" clone-depth="1" />
 
         <!-- Compiler -->
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
