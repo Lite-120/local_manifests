@@ -17,6 +17,15 @@
                 fetch="https://github.com/adnan-44" />
 
 
+        <!-- Remove Hals & Clone Hals -->
+        <remove-project name="android_hardware_qcom_display"/>
+	<remove-project name="android_hardware_qcom_media"/>
+	<remove-project name="android_hardware_qcom_audio"/>
+
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
+
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="11" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
