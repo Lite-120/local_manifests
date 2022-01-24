@@ -31,8 +31,5 @@
 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="TK" revision="arrow-11.0" clone-depth="1" />
 
-        <!-- Compiler -->
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-
 	
 </manifest>
