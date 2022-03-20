@@ -2,7 +2,7 @@
 <manifest>
 
 	<remote name="Lite"
-		fetch="https://github.com/Lite-120" />
+	        fetch="https://github.com/Lite-120" />
         
 	<remote name="pe"
 		fetch="https://github.com/PixelExperience" />
