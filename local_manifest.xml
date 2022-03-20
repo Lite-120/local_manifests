@@ -11,7 +11,7 @@
                 fetch="https://github.com/adnan-44" />
 
         <remote  name="Uni"
-                 fetch="https://github.com/GhostMaster69-dev" />
+                fetch="https://github.com/GhostMaster69-dev" />
 
         <remote name="clang"
 		fetch="https://github.com/kdrag0n" />
