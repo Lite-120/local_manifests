@@ -39,8 +39,6 @@
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pe" revision="eleven " />
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pe" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pe" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="pe" revision="eleven" />
