@@ -16,8 +16,8 @@
         <remote name="clang"
 	        fetch="https://github.com/kdrag0n" />
 
-        <remote name="TK"
-	        fetch="https://github.com/gamehackerever" />
+        <remote name="WS"
+	        fetch="https://github.com/wastingmylife" />
 
         <remote name="DA"
 	        fetch="https://github.com/Blacksuan19" />
@@ -31,7 +31,7 @@
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="10" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="10" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="WS" revision="windstorm" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" clone-depth="1" />
 
 </manifest>
