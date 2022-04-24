@@ -16,8 +16,8 @@
         <remote name="clang"
 	        fetch="https://github.com/kdrag0n" />
 
-        <remote name="TK"
-	        fetch="https://github.com/gamehackerever" />
+        <remote name="WS"
+	        fetch="https://github.com/wastingmylife" />
 
         <remote name="DA"
 	        fetch="https://github.com/Blacksuan19" />
@@ -31,12 +31,16 @@
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="DA" revision="darky" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="WS" revision="windstorm" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" clone-depth="1" />
 
      
         <!-- Remove Hals & Add Hals -->
+        <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pe" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pe" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="pe" revision="eleven" />
 
 </manifest>
