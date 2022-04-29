@@ -31,7 +31,7 @@
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="WS" revision="windstorm" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="Lite" revision="eleven" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" clone-depth="1" />
 
      
