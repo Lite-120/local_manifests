@@ -16,8 +16,9 @@
         <remote name="clang"
 	        fetch="https://github.com/kdrag0n" />
 
-        <remote name="TK"
-	        fetch="https://github.com/gamehackerever" />
+        <remote name="Starlight"
+	        fetch="https://github.com/starlight5234" />
+	       
 
         <remote name="DA"
 	        fetch="https://github.com/Blacksuan19" />
@@ -38,8 +39,9 @@
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
-	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio_msm8996-vince" remote="Starlight" revision="r11.0" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Addy" revision="r11.0" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media_msm8996-vince" remote="Starlight" revision="r11.0" />
+
 
 </manifest>
