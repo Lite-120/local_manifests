@@ -2,7 +2,7 @@
 <manifest>
 
 	<remote name="Lite"
-	        fetch="https://github.com/Lite-120" />
+	        fetch="https://github.com/Lite009" />
         
 	<remote name="pe"
 	        fetch="https://github.com/PixelExperience" />
@@ -30,8 +30,8 @@
 
 
         <!-- Trees -->
-	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="11" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="11" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" clone-depth="1" />
 
