@@ -29,12 +29,15 @@
 
 
         <!-- Trees -->
-	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="thirteen" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="thirteen" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="PixelOS" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="13.0" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Unitrix" revision="master" clone-depth="1" />
        	
-        <!-- Clang [TEMP] -->
-        <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-        <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="Anandhan" revision="current" />
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="Anandhan" revision="clang-15.0.3" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="Anandhan" revision="clang-14.0.6" />
+
+        <!-- Packages -->
+        <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Anandhan" revision="master" />
 
 </manifest>
