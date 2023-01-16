@@ -29,8 +29,8 @@
 
 
         <!-- Trees -->
-	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="PixelOS" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="PixelOS" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="Pixel" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="Pixel" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Unitrix" revision="master" clone-depth="1" />
        	
         <!-- Clang -->
