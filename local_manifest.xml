@@ -19,9 +19,11 @@
         <remote name="Starlight"
 	        fetch="https://github.com/starlight5234" />
 	       
-
         <remote name="DA"
 	        fetch="https://github.com/Blacksuan19" />
+
+        <remote name="Anandhan"
+	        fetch="https://gitlab.com/anandhan07/" />
 
         <!-- Toolchain -->
          <remote name="cosmic"
@@ -33,7 +35,7 @@
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="master" clone-depth="1" />
-       	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+       	<project path="prebuilts/clang/host/linux-x86/clang-14" name="aosp-clang" remote="Anandhan" revision="clang-14.0.6" />
 
         <!-- Remove Hals & Add Hals -->
         <remove-project name="android_hardware_qcom_audio" />
