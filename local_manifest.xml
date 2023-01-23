@@ -35,7 +35,6 @@
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="eleven" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="master" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="release/15.x" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 
         <!-- Framework Base -->
         <remove-project name="android_frameworks_base" />
