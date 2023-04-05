@@ -29,14 +29,21 @@
                 fetch="https://github.com/iusmac"
                 clone-depth="1" />
 
+        <remote name="GrapheneOS"
+                fetch="https://github.com/GrapheneOS/"
+                clone-depth="1" />
+
         <!-- Trees -->
 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Lite" revision="aosp-13" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Lite" revision="aosp-13" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="master" clone-depth="1" />
-       	<project path="prebuilts/clang/host/linux-x86/clang-master" name="aosp-clang" remote="Anandhan" revision="master" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="Anandhan" revision="clang-14.0.6" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="aosp-clang" remote="Anandhan" revision="clang-r487747" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="Anandhan" revision="clang-r450784d" />
 
         <!-- RevampedFMRadio -->
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
+
+        <!-- GrapheneOS Camera -->
+        <project path="external/Camera" name="platform_external_Camera" remote="GrapheneOS" revision="13"/>
 
 </manifest>
