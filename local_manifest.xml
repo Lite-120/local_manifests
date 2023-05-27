@@ -35,7 +35,8 @@
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Unitrix" revision="master" clone-depth="1" />
        	
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="release/15.x" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="Anandhan" revision="17" clone-depth="1" />
+	
 
         <!-- Remove Hals & Add Hals -->
         <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
