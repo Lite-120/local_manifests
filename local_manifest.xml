@@ -38,7 +38,6 @@
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Lite" revision="pixelos-13.0" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="master" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="Anandhan" revision="17" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="Anandhan" revision="14" clone-depth="1" />
 
         <!-- RevampedFMRadio -->
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
